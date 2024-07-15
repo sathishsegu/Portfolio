@@ -13,7 +13,7 @@
 - [Contact](#contact)
 
 ## About the Project
-This portfolio is designed to introduce myself professionally and showcase my expertise in Java development, front-end technologies, and more. It includes sections such as:
+This portfolio is designed to introduce myself professionally and showcase my expertise in Java development, front-end technologies, and many more. It includes sections such as:
 
 - **Home**: Introduction and download option for my resume.
 - **About**: Detailed information about my background, skills, and professional journey.
