@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "sans-serif";
+  box-sizing: border-box;
+}
+body {
+  background-color: #080808;
+  color: #fff;
+}
+#header {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  padding: 10px 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 50px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #00ccff;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.headerText {
+  margin-top: 11%;
+  font-size: 30px;
+  margin-left: 5%;
+}
+
+.headerText h1 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.headerText h1 span {
+  color: #00ccff;
+}
+
+.headerText h2 {
+  font-size: 40px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.intro button {
+  margin: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: #00ccff;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+#myimg {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-right: 100px;
+  margin-top: 150px;
+}
+
+/* -------------------About Section------------------------- */
+
+#about {
+  padding: 80px 0;
+  color: #ababab;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 35%;
+}
+
+.about-col-1 img {
+  height: 450px;
+  width: 300px;
+  border-radius: 5px;
+  margin-left: 100px;
+}
+
+.about-col-2 {
+  flex-basis: 65%;
+}
+
+.sub-title {
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 10px;
+}
+
+#p1,
+#p2 {
+  font-size: large;
+  margin: 20px 50px 20px 0px;
+  text-align: justify;
+}
+
+/* -----------------------------Skills Section------------------------------------ */
+
+#skills {
+  padding: 80px 0;
+}
+#skills h2 {
+  text-align: center;
+  margin-bottom: 45px;
+  font-size: 60px;
+}
+#skills .skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
+}
+
+.skill {
+  background-color: #00ccff;
+  color: black;
+  padding: 25px;
+  border-radius: 5px;
+  flex: 1 1 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+}
+
+/* -----------------------------Projects Section------------------------------------ */
+
+#projects {
+  padding: 80px 0;
+  text-align: center;
+}
+#projects .sub-title {
+  margin-bottom: 50px;
+}
+#projects .projectsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#projects .projectsList div {
+  background-color: #202020;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 5px;
+  width: 80%;
+  text-align: left;
+}
+#projects .projectsList div i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #00ccff;
+}
+#projects .projectsList div h2 {
+  margin-bottom: 20px;
+}
+#projects .projectsList div p {
+  margin-bottom: 20px;
+}
+#projects .projectsList div a {
+  color: #00ccff;
+  text-decoration: none;
+  font-weight: bold;
+}
+#projects .projectsList div a:hover {
+  text-decoration: underline;
+}
+
+/* ----------------------------Contact Section-------------------------------- */
+
+#contact {
+  padding: 80px 0;
+  text-align: center;
+}
+#contact h2 {
+  margin-bottom: 20px;
+}
+#contact p {
+  margin-bottom: 20px;
+}
+#contact .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#contact .icons a {
+  margin: 0 20px;
+  color: #00ccff;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+#contact .icons a:hover {
+  color: #007acc;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #202020;
+  text-align: center;
+  color: #fff;
+}
